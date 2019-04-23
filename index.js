@@ -9,7 +9,7 @@ driver[key]= value
 return driver
 }
 function deleteFromDriverByKey(driver, key){
- const newObj = { ...driver};
+ const newObj = {...driver};
 delete  newobj[key]
 return newobj
 }
